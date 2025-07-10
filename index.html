@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+ <title> Proyecto Final Cristhian NKl</title>
+   <link rel="stylesheet" href="style.css">
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <div class="cuerpo">
+    <h1> Quieres jugar este juego?</h1>
+    <p>Adivina el numero y sobrevive , que comienze el juego</p>
+
+    <input type="number" id="userInput" min="1" max="100" placeholder="Ingresa tu número">
+    <br>
+    <button onclick="adivinar()">Adivinar</button>
+    <button id="verIntentos" onclick="mostrarIntentos()"> Ver intentos</button>
+    <button id="reiniciar" onclick="reiniciarJuego()"> Reiniciar</button>
+
+    <p id="mensaje"></p>
+    <p id="contador">Intentos usados: 0 / 3</p>
+
+    <img  id="memePerro" src="perro.jpg"  class="meme" />
+  </div>
+</body>
+</html>

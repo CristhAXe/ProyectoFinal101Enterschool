@@ -1,0 +1,57 @@
+    body {
+      margin: 0;
+      font-family: sans-serif;
+    background-image: url('https://i.gifer.com/AH1o.gif');
+      background-size: cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .cuerpo {
+      background-color: rgba(165, 189, 161, 0.8);
+      padding: 30px;
+      border-radius: 15px;
+      text-align: center;
+      box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    }
+
+    input, button {
+      font-size: 1rem;
+      padding: 10px;
+      margin: 10px;
+      border: none;
+      border-radius: 8px;
+    }
+
+    button {
+      cursor: pointer;
+      background-color: #4d9342;
+      color: white;
+    }
+
+    button:hover {
+      background-color: #42764f;
+    }
+    .meme {
+  display: none;            
+  margin-top: 20px;
+  max-width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    }
+
+    #reiniciar, #verIntentos {
+      background-color: #284122;
+    }
+
+    #reiniciar:hover, #verIntentos:hover {
+      background-color: #488747;
+    }
+
+    #mensaje {
+      font-weight: bold;
+      margin-top: 15px;
+    }
+    
